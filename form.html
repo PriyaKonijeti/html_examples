@@ -1,26 +1,21 @@
+<!DOCTYPE html>
 <html>
     <head>
     </head>
     <body>
     	<fieldset>
-    		<div style="background-color:black;color:red">
-    		<legend>Personal Information</legend>
+    		<div style="text-align:center;background-color:black;color:red">
+    		<h2 style="text-decoration: underline;">Personal Information</h2>
     		<form action="/action_page.php" target="top" ></form>
     		
     	First Name:    <input type= "text" value=""> </input><br><br>
-    	Last Name:     <input type= "text" value="" ></input><br><br>
+    	Last Name:     <input type= "text" value=""></input><br><br>
     	Mobile N0:     <input type="number" value="" min="10" max="10"></input><br><br>
-    	              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="submit"></input><br>
-            </div>
-        </fieldset>
-        <fieldset>
-          <form>
-          	<h2>radio buttons</h2>
-          	<input type="radio" name="gender" value="Male">Male<br>
-          	<input type="radio" name="gender" value="Female" checked>Female<br>
-          	<input type="radio" name="gender" value="others">Others<br>
-          	<br>
-         From where You are Applying:<br>
+    	     Gender:      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="Male">Male
+          	           <input type="radio" name="gender" value="Female" checked>Female
+          	           <input type="radio" name="gender" value="others">Others
+          	<br><br>
+         Country:
          <Select name ="Country">
          	<option value="country">Australia</option>
          	<option value="country">Belgium</option>
@@ -29,8 +24,10 @@
          	<option value="country">Luxemburg</option>
          	<option value="country">Paris</option>
          	<option value="country">United Kingdom</option>
-         	<option value="country">France</option>
-          </form>
-        </fieldset>
+         	<option value="country">France</option><br>
+         	</Select>
+         	<br><br>
+           <input type="button" value="submit"></input><br>
+            </div>
       </body>
 </html>
